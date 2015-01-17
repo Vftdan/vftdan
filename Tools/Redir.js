@@ -5,4 +5,6 @@ hr=hr.replace(/%2F/i,"/");
 hr=hr.replace(/%26/i,"&");
 }
 location.href=hr};
+if(location.search.match(/\?\w/i)!=""){
 setTimeout("redir()",1000)
+}
