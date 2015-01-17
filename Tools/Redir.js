@@ -6,5 +6,5 @@ hr=hr.replace(/%26/i,"&");
 }
 location.href=hr};
 if(location.search.match(/\?\w/i)[0].match(/\?/i)=="?"){
-setTimeout("redir()",3000)
+setTimeout("redir()",1100)
 }
