@@ -3,6 +3,7 @@
 position:fixed;
 top:-1pt;
 left:1.6em;
+font-size:20pt;
 }
 .r-side {
 height:100%;
@@ -23,4 +24,10 @@ width:1.5em;
 position:fixed;
 top:1pt;
 left:1pt;
+}
+.site-slogan {
+Position:fixed;
+top:20pt;
+left:1pt
+
 }
