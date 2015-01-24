@@ -15,7 +15,7 @@ position:static
 .b-logo {
 position:fixed;
 text-align:center;
-padding:7em 30%;
+padding:7em 10%;
 top:-5em;
 background-color:lightSkyBlue;
 overflow:hidden;
@@ -51,7 +51,7 @@ margin:3ex 1pt;
 background:royalBlue
 
 }
-.b-maincontent {
+.b-maincontent, .content-padding {
 position:absolute;
 top:11em;
 left:6em;
