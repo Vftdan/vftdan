@@ -15,7 +15,7 @@ position:static
 .b-logo {
 position:fixed;
 text-align:center;
-padding:7em 40%;
+padding:7em 30%;
 top:-5em;
 background-color:lightSkyBlue;
 overflow:hidden;
@@ -28,7 +28,7 @@ z-index:1;
 }
 .uMenuRoot {
 position:absolute;
-top:10em;
+top:11em;
 width:6em;
 background:lightBlue;
 }
@@ -50,4 +50,9 @@ margin:3ex 1pt;
 .searchForm input {
 background:royalBlue
 
+}
+.b-maincontent {
+position:absolute;
+top:11em;
+left:6em;
 }
