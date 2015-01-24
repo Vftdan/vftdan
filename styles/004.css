@@ -20,6 +20,7 @@ top:-5em;
 background-color:lightSkyBlue;
 overflow:hidden;
 z-index:0;
+width:110%;
 }
 #top {
 z-index:1;
@@ -27,7 +28,7 @@ z-index:1;
 }
 .uMenuRoot {
 position:absolute;
-top:11.5em;
+top:10em;
 width:6em;
 background:lightBlue;
 }
@@ -37,6 +38,7 @@ position:fixed;
 top:11em;
 right:2pt;
 background:lightBlue;
+height:5em;
 
 
 }
