@@ -1,0 +1,51 @@
+* {
+margin:0px;
+
+}
+
+div {
+position:relative;
+top:14em
+
+}
+div *{
+position:static
+}
+
+.b-logo {
+position:fixed;
+text-align:center;
+padding:7em 40%;
+top:-5em;
+background-color:lightSkyBlue;
+overflow:hidden;
+z-index:0;
+}
+#top {
+z-index:1;
+
+}
+.uMenuRoot {
+position:absolute;
+top:11.5em;
+width:6em;
+background:lightBlue;
+}
+
+.searchForm {
+position:fixed;
+top:11em;
+right:2pt;
+background:lightBlue;
+
+
+}
+.uMenuRoot li {
+background:royalBlue;
+margin:3ex 1pt;
+
+}
+.searchForm input {
+background:royalBlue
+
+}
