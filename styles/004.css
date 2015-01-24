@@ -51,7 +51,7 @@ margin:3ex 1pt;
 background:royalBlue
 
 }
-.b-maincontent, .content-padding {
+.b-maincontent, .content-padding, .block-title {
 position:absolute;
 top:11em;
 left:6em;
