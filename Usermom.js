@@ -4,5 +4,6 @@ var vft=document.getElementById("vft").innerHTML.replace(/&\$;/i,"").replace(/&\
 document.removeChild(document.lastChild);
 window.onload=function() {
 document.write(vft);
-when_loaded()
+iscl=true;
+when_loaded();
 }
