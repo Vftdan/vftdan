@@ -5,5 +5,5 @@ document.removeChild(document.lastChild);
 window.onload=function() {
 document.write(vft);
 iscl=true;
-when_loaded();
+when_loaded(true);
 }
