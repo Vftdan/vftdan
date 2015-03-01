@@ -1,0 +1,28 @@
+li {
+display:inline-block;
+}
+fieldset {
+height:2ex;
+display:inline-block;
+overflow:hidden;
+}
+fieldset[opened="false"] {
+overflow:hidden;
+}
+fieldset[opened="true"] {
+overflow:visible;
+}
+a {
+color:#111;
+text-decoration:none;
+}
+legend {
+height:1ex;
+font-size:0.8ex;
+overflow:hidden;
+}
+fieldset input {
+border:none;
+border-top:1pt dotted #222;
+font-size:0.7ex;
+}
