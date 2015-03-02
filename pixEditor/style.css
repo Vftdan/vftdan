@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+td {
+border:1.3pt dotted black;
+height:0.26187em;
+width:0.26187em;
+//border-radius:1px;
+}
+
+#test {
+  color: gray;
+}
+
+#tbhc {
+display:block;
+border:1pt dashed black;
+}
+but {
+display:block;
+height:130%;
+width:90%;
+border:0.8pc solid transparent;
+}
+#ifr {
+display:none;
+width:100%;
+}
+input {
+
+border-raidius:1px;
+
+}
+
+#tab{
+display:block;
+}
+
