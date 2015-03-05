@@ -1,9 +1,9 @@
-var diam=29;
+var diam=79;
 var drc="black"
 
 window.addEventListener('load', function(e) {
 document.querySelector('#tab').innerHTML = vtlTrs(diam);
-  document.querySelector('#test').innerHTML = 'crc';
+  document.querySelector('#test').innerHTML = 'loaded!';
 var tdsa = document.getElementsByTagName('td');
 //document.getElementsByTagName('table')[0].onclick=function() {
 
