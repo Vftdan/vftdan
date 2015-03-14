@@ -1,4 +1,4 @@
 <! doctype svg>
-<svg style="height:64px;width:64px">
+<svg>
 <polygon points="8,32 32,8 36,8 14,30 56,30 56,34 14,34 36,56 32,56 8,32" fill="white" stroke="transparent"></polygon>
 </svg>
