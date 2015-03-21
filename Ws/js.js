@@ -10,7 +10,7 @@ function c_$($get) {
 var _stat=document.getElementsByTagName("h1")[0];
 var _tit=document.getElementsByTagName("title")[0];
 _status="200 OK";
-alert($get);
+if($get==""){_status="204 No Content"};
 _stat.innerHTML=_status;
 _tit.innerHTML=_status+" - vftdan";
 }
