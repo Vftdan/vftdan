@@ -4,7 +4,7 @@ var vft=document.getElementById("vft").innerHTML.replace(/&\$;/i,"").replace(/&\
 document.removeChild(document.lastChild);
 window.onload=function() {
 document.write("<"+"script>iscl=true;when_loaded(true);</script"+">"+vft);
-c_$(location.search.match(/\?[^?]*/i)[0].match(/[^?]*/i)[0]);
+c_$(location.search.match(/\?[A-Za-z0-9&=+-]*/i)[0].match(/[A-Za-z0-9&=+-]*/i)[0]);
 }
 function c_$($get) {
 var _stat=document.getElementsByTagName("h1")[0];
