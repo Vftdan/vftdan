@@ -11,6 +11,7 @@ var _stat=document.getElementsByTagName("h1")[0];
 var _tit=document.getElementsByTagName("title")[0];
 _status="200 OK";
 if($get==""){_status="204 No Content"};
+if(_stat.parentNode.tagName=="CENTER") {
 _stat.innerHTML=_status;
-_tit.innerHTML=_status+" - vftdan";
+_tit.innerHTML=_status+" - vftdan";};
 }
