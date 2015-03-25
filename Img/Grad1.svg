@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-<linearGradient id="MyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="64" y2="">
+<linearGradient id="MyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="64">
 <stop offset="0" style="stop-color:rgb(95,115,173)"/>
 <stop offset="0.618" style="stop-color:rgb(102.5,115,148)"/>
 
