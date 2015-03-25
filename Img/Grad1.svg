@@ -7,4 +7,5 @@
 <stop offset="0" style="stop-color:rgb(95,115,173)"/>
 
 <stop offset="1" style="stop-color:rgb(97,115,163)"/> </linearGradient>
+<rect x="0" y="0" height="64" width="64" style='fill:url("#MyGradient")'></rect>
 </svg>
