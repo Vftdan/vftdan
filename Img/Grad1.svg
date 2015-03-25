@@ -5,7 +5,7 @@
 	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
 <linearGradient id="MyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="64">
 <stop offset="0" style="stop-color:rgb(95,115,173)"/>
-<stop offset="0.618" style="stop-color:rgb(100,115,158)"/>
-<stop offset="1" style="stop-color:rgb(105,115,143)"/> </linearGradient>
+<stop offset="0.618" style="stop-color:rgb(99,115,163)"/>
+<stop offset="1" style="stop-color:rgb(103,115,153)"/> </linearGradient>
 <rect x="0" y="0" height="64" width="64" style='fill:url("#MyGradient")'></rect>
 </svg>
