@@ -1,4 +1,4 @@
-
+alert ("Started loading...");
 if(typeof String.prototype.trim!=='function'){String.prototype.trim=function(){return this.replace(/^\s+|\s+$/g,'');}}
 var Sburb=(function(Sburb){Sburb.Keys={backspace:8,tab:9,enter:13,shift:16,ctrl:17,alt:18,escape:27,space:32,left:37,up:38,right:39,down:40,w:87,a:65,s:83,d:68};Sburb.Stage=null;Sburb.cam={x:0,y:0}
 Sburb.stage=null;Sburb.pressed=null;Sburb.assetManager=null;Sburb.assets=null;Sburb.sprites=null;Sburb.effects=null;Sburb.buttons=null;Sburb.rooms=null;Sburb.char=null;Sburb.curRoom=null;Sburb.destRoom=null;Sburb.destX=null;Sburb.destY=null;Sburb.focus=null;Sburb.destFocus=null;Sburb.chooser=null;Sburb.curAction=null;Sburb.bgm=null;Sburb.hud=null;Sburb.Mouse={down:false,x:0,y:0};Sburb.waitFor=null;Sburb.engineMode="wander";Sburb.fading=false;Sburb.lastMusicTime=[0,0];Sburb.updateLoop=null;Sburb.initFinished=null;Sburb._hardcode_load=null;Sburb._include_dev=false;var lastDrawTime=0;Sburb.initialize=function(div,levelName,includeDevTools){var deploy='   \
