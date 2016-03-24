@@ -658,3 +658,4 @@ Sburb.Path.prototype.queryBatchNeg=function(queries,results){for(var query in qu
 Sburb.Path.prototype.query=function(pt){for(var c=false,i=-1,l=this.points.length,j=l-1;++i<l;j=i){var ptA=this.points[i];var ptB=this.points[j];((ptA.y<=pt.y&&pt.y<ptB.y)||(ptB.y<=pt.y&&pt.y<ptA.y))&&(pt.x<(ptB.x-ptA.x)*(pt.y-ptA.y)/(ptB.y-ptA.y)+ptA.x)&&(c=!c);}
 return c;}
 return Sburb;})(Sburb||{});
+alert("Loaded!");
